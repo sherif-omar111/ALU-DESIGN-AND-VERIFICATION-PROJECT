@@ -60,7 +60,7 @@ The ALU module consists of five sub modules:
 		
 ## 4. UVM Architecture:
 
-![image]()
+![image](uvm_arch.PNG)
 
 ## 5. Sequence items:
 alu_seq_item
@@ -109,7 +109,7 @@ alu_seq_item
 | alu_b_lsl_test     | reset -> b_lsl
 
 ### Test all 
-![image]()
+![image](test_all.PNG)
 
 ## 8. Assertions:
 
@@ -118,8 +118,5 @@ alu_seq_item
 
 ## 9. Coverage:
 
-### 9.1 Functional Coverage:
-![image]()
+![image](coverage.PNG)
 
-### 9.2 Code Coverage:
-![image]()
