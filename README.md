@@ -7,13 +7,12 @@ ALU is the fundamental building block of the processor, which is responsible for
 - Decoder Unit responsibles for enable which Function to operate according to the highest Most significant 2-bit of the ALU_FUNC control bus ALU_FUNC [3:2]. 
 
 ## 1. Directories:
-- rtl : rtl design
+- rtl               : rtl design.
 - tb/top            : hvl top.
 - tb/test           : tests.
 - tb/env            : Environment, scoreboard ...
 - tb/agents         : agents.
 - tb/sequences      : sequences.
-
 
 ## 2. System Architecture:
 The ALU module consists of five sub modules:
@@ -59,7 +58,6 @@ The ALU module consists of five sub modules:
 | 1110      | SHIFT: B >> 1	                |
 | 1111      | SHIFT: B << 1	                |
 		
-	
 ## 4. UVM Architecture:
 
 ![image]()
@@ -110,7 +108,7 @@ alu_seq_item
 | alu_b_lsr_test     | reset -> b_lsr
 | alu_b_lsl_test     | reset -> b_lsl
 
-
+### Test all 
 ![image]()
 
 ## 8. Assertions:
