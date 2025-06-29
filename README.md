@@ -24,7 +24,7 @@ The ALU module consists of five sub modules:
 #### 4- CMP_UNIT.
 #### 5- DCODER_UNIT.
 
-![image]()
+![image](Block_Diagram_RTL.png)
 
 ## 3. Interface signals:
 | Signal name   | Signal width      | Description                      
@@ -114,7 +114,6 @@ alu_seq_item
 ![image]()
 
 ## 8. Assertions:
-
 
 ![image]()
 
