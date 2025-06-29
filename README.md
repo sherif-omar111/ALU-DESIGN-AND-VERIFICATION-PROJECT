@@ -93,22 +93,22 @@ alu_seq_item
 | Test               | Scenario                                                                                  |
 | ------------------ | ----------------------------------------------------------------------------------------- |
 | alu_test_all	     | reset -> add -> sub -> mul -> div -> and -> or -> nand -> nor -> nop -> equal -> greater -> less -> a_lsr -> a_lsl -> b_lsr -> b_lsl 
-| alu_add_test	     | 
-| alu_sub_test       |  
-| alu_mul_test       | 
-| alu_div_test       |
-| alu_and_test       |
-| alu_or_test        |
-| alu_nand_test      |
-| alu_nor_test       |
-| alu_nop_test       |
-| alu_equal_test     |
-| alu_greater_test   |
-| alu_less_test      |
-| alu_a_lsr_test     |
-| alu_a_lsl_test     |
-| alu_b_lsr_test     |
-| alu_b_lsl_test     |
+| alu_add_test	     | reset -> add 
+| alu_sub_test       | reset -> sub 
+| alu_mul_test       | reset -> mul
+| alu_div_test       | reset -> div
+| alu_and_test       | reset -> and
+| alu_or_test        | reset -> or 
+| alu_nand_test      | reset -> nand
+| alu_nor_test       | reset -> nor 
+| alu_nop_test       | reset -> nop 
+| alu_equal_test     | reset -> equal
+| alu_greater_test   | reset -> greater
+| alu_less_test      | reset -> less
+| alu_a_lsr_test     | reset -> a_lsr
+| alu_a_lsl_test     | reset -> a_lsl
+| alu_b_lsr_test     | reset -> b_lsr
+| alu_b_lsl_test     | reset -> b_lsl
 
 
 ![image]()
