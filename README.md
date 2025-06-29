@@ -90,8 +90,25 @@ alu_seq_item
 | alu_b_lsl_sequence     |
 
 ## 7. Tests Scenarios:
-| Test                          | Scenario                                                                                  |
-| ----------------------------- | ----------------------------------------------------------------------------------------- |
+| Test               | Scenario                                                                                  |
+| ------------------ | ----------------------------------------------------------------------------------------- |
+| alu_test_all	     | reset -> add -> sub -> mul -> div -> and -> or -> nand -> nor -> nop -> equal -> greater -> less -> a_lsr -> a_lsl -> b_lsr -> b_lsl 
+| alu_add_test	     | 
+| alu_sub_test       |  
+| alu_mul_test       | 
+| alu_div_test       |
+| alu_and_test       |
+| alu_or_test        |
+| alu_nand_test      |
+| alu_nor_test       |
+| alu_nop_test       |
+| alu_equal_test     |
+| alu_greater_test   |
+| alu_less_test      |
+| alu_a_lsr_test     |
+| alu_a_lsl_test     |
+| alu_b_lsr_test     |
+| alu_b_lsl_test     |
 
 
 ![image]()
